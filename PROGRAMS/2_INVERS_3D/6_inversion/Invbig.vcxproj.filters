@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="velmod">
+      <UniqueIdentifier>{109659fe-b98b-4384-9f23-100d8cc07253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="invers">
+      <UniqueIdentifier>{fce189c4-3445-4c29-aca1-00113ff7ca74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\subr\3D_model\anom_3D_xyz_lin_v.f90">
+      <Filter>velmod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\3D_model\read_3D_mod_v.f90">
+      <Filter>velmod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\synth\read_ini_model.f90">
+      <Filter>velmod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\convers\sfdec.f90">
+      <Filter>velmod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\3D_model\velocity.f90">
+      <Filter>velmod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\synth\vert_anom.f90">
+      <Filter>velmod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\rays_locate\vrefmod.f90">
+      <Filter>velmod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\invers\nolet.f90">
+      <Filter>invers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Invbig.f90" />
+  </ItemGroup>
+</Project>

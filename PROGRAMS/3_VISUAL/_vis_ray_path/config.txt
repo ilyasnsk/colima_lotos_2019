@@ -1,0 +1,47 @@
+         911         500
+ _______ Size of the picture in pixels (nx,ny)
+           0   155.0006    
+ _______ Physical coordinates along X (xmin,xmax)
+  -80.00000       5.000000    
+ _______ Physical coordinates along Y (ymin,ymax)
+   20.00000       20.00000    
+ _______ Spacing of ticks on axes (dx,dy)
+..\..\..\PICS\GULTEN_1\MODEL_08\RAYS_GRIDS\ver_rays_nodes122.png
+ _______ Path of the output picture
+ S rays and grid  1 , section=2A - 2B
+ _______ Title of the plot on the upper axe
+           1
+ _______ Number of layers
+********************************************
+           3
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\rays\rays_ver22.dat
+ _______ Location of the DAT file
+           1
+ _______ Symbol (1: circle, 2: square)
+           3
+ _______ Size of dots in pixels
+         180         180         180
+ _______ RGB color
+********************************************
+           3
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\loc\stat_ver 2.dat
+ _______ Location of the DAT file
+           2
+ _______ Symbol (1: circle, 2: square)
+           5
+ _______ Size of dots in pixels
+           0           0         255
+ _______ RGB color
+********************************************
+           3
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\rays\nodes_ver122.dat
+ _______ Location of the DAT file
+           1
+ _______ Symbol (1: circle, 2: square)
+           3
+ _______ Size of dots in pixels
+         250           0           0
+ _______ RGB color

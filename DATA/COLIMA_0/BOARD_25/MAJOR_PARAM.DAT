@@ -1,0 +1,183 @@
+
+********************************************************
+GENERAL INFORMATION :
+2	KEY 1: REAL; KEY 2: SYNTHETIC  
+1	KEY 1: Vp and Vs; KEY 2: Vp and Vp/Vs  
+0	KEY 0: all data, KEY 1: odd events, KEY 2: even events
+0	Ref. model optimization (0-no; 1-yes)
+
+********************************************************
+SYNTHETIC MODELING PARAMETERS :
+MAIN_MOD	name of the model or "inidata ", source where S-R pairs are taken to compute synthetic rays  
+3	iteration of the real data model; in case of "inidata " this line is ignored
+1 type of noise 1: random generator, 2: from real data (2 cannot be for "inidata "!!!)
+______________________________________
+0.0 0.0      level of noise for P and S data. In case of real data, reduction of remnant residuals, e.g. 0.8 0.8 (80%) 
+0	in percents, partition of outliers
+10.	times larger than the normal noise
+
+
+********************************************************
+AREA_CENTER :
+-103.6 19.5      Center of conversion to XY
+
+********************************************************
+ATTENUATION PARAMETERS :
+100 100	! Min number of rays for the P and S attenuation model 
+3	! Number of iteration for velocity model
+2 0				! average attenuation and range for the P
+1.47 0				! average attenuation and range for the S
+1 2				! Smoothing
+0 0				! Amplitude damping
+100				! Number of LSQR iterations
+
+
+********************************************************
+ORIENTATIONS OF GRIDS :
+4				number of grids
+0 22 45 67		orientations
+
+********************************************************
+1D LOCATION KEY :
+1    1: using reference table (large areas); 
+     2: using straight lines (small areas with high relief)
+
+
+********************************************************
+STARTING MODEL KEY:
+1	1:using 1D reference velocity model (key_refmod = 1)
+	2:using 3D reference velocity model (key_refmod = 2)
+
+********************************************************
+INVERSION PARAMETERS :
+80 1			LSQR iterations, iter_max
+1 1. Weights for P and S models in the upper part
+0.8 1.9		HORIZONTAL smoothing (P, S)
+0.8 1.9		VERTICAL smoothing (P, S)
+0.0 0.0 regularization level (P, S and crust)
+
+0.0001   0.0001	weight of the station corrections (P and S)
+5.0001	wzt_hor
+5.0001	wzt_ver
+5.0001	wzt_time
+
+********************************************************
+1D MODEL PARAMETERS :
+4		Iterations for 1D inversions
+-10 3. 10		zmin, dzstep depth step for finding the best event
+1 1 300		dsmin, dzlay,zgrmax : parameters for 1D tracing
+5.		dz_par, step for parameterization
+2		sum porog
+6. 9. sm_p,sm_s
+10.0 10.0 rg_p,rg_s
+10 10 1 w_hor,w_ver,w_time
+300		LSQR iterations
+0 nsharp
+27 27	z_sharp
+
+
+********************************************************
+Parameters for location in 1D model using reference table
+and data selection:
+********************************************************
+LIN_LOC_PARAM :
+10		Minimal number of records
+300		km, maximum distance to nearest station
+1.5		S max resid with respect to P max resid 
+100		dist_limit=100	: within this distance the weight is equal
+1		n_pwr_dist=1	: power for decreasing of W with distance
+30		ncyc_av=10	
+
+! For output:
+50		bad_max=30		: maximal number of outliers
+5.0	maximal dt/distance
+1		distance limit	
+
+10		Frequency for output printing
+
+4		Number of different grids
+_______________________________________________________
+30 30 30		dx,dy,dz
+0.		res_loc1=0.2	: lower limit for location (for LT residuals, W=1)
+15.		res_loc2=1.5	: upper limit for location (for GT residuals, W=0)
+2.		w_P_S_diff=2 (+ causes better coherency of P and S)
+_______________________________________________________
+10 10 10		dx,dy,dz
+0.		res_loc1=0.2	: lower limit for location (for LT residuals, W=1)
+10.		res_loc2=1.5	: upper limit for location (for GT residuals, W=0)
+2.		w_P_S_diff=2 (+ causes better coherency of P and S)
+_______________________________________________________
+2 2 2		dx,dy,dz
+0.		res_loc1=0.2	: lower limit for location (for LT residuals, W=1)
+6.		res_loc2=1.5	: upper limit for location (for GT residuals, W=0)
+2.		w_P_S_diff=2 (+ causes better coherency of P and S)
+_______________________________________________________
+0.5 0.5 0.5		dx,dy,dz
+0.		res_loc1=0.2	: lower limit for location (for LT residuals, W=1)
+3		res_loc2=1.5	: upper limit for location (for GT residuals, W=0)
+2.		w_P_S_diff=2 (+ causes better coherency of P and S)
+
+
+
+
+********************************************************
+Parameters for 3D model with regular grid
+********************************************************
+3D_MODEL PARAMETERS:
+-200. 200. 5  xx1, xx2, dxx,
+-200. 200. 5  yy1, yy2, dyy,
+-5. 200. 5 zz1, zz2, dzz
+15		distance from nearest node
+0		Smoothing factor1
+
+
+
+********************************************************
+Parameters for grid construction
+********************************************************
+GRID_PARAMETERS:
+-200. 200. 5	grid for ray density calculation (X)
+-200. 200. 5	grid for ray density calculation (Y)
+-5. 200. 5		min and max levels for grid
+0.05 100.0	!plotmin, plotmax= maximal ray density, relative to average
+
+
+
+********************************************************
+Parameters for location in 3D model using bending tracing
+********************************************************
+LOC_PARAMETERS:
+! Parameters for BENDING:
+1		ds_ini: basic step along the rays
+10		min step for bending
+0.01	min value of bending
+3		max value for bending in 1 step
+
+! Parameters for location
+30		dist_limit=100	: within this distance the weight is equal
+1		n_pwr_dist=1	: power for decreasing of W with distance
+30		ncyc_av=10	
+
+0.		res_loc1=0.2	: lower limit for location (for LT residuals, W=1)
+1.0		res_loc2=1.5	: upper limit for location (for GT residuals, W=0)
+2.		w_P_S_diff=2 (+ causes better coherency of P and S)
+5.		stepmax
+0.1		stepmin
+
+10		Frequency for output printing
+
+
+********************************************************
+Parameters for calculation of the reference table:
+********************************************************
+REF_PARAM:
+
+1		min step
+700.	max depth
+500.	max distance
+4		number of depth steps
+-5 0.5	depth, step
+20 1	depth, step
+50 3	depth, step
+200 10	depth, step
+700		maximal depth

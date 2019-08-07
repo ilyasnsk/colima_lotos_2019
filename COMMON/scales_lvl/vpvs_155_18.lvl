@@ -1,0 +1,53 @@
+LVL2
+'Level Flags LColor LStyle LWidth FFGColor FBGColor FPattern FMode FScale FType
+1.55 0 "Black" "Invisible" 0 1 "Deep Navy Blue" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.555 0 "Black" "Invisible" 0 1 "R0 G19 B116 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.56 0 "Black" "Invisible" 0 1 "R0 G37 B130 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.565 0 "Black" "Invisible" 0 1 "R0 G56 B144 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.57 0 "Black" "Invisible" 0 1 "R0 G74 B158 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.575 0 "Black" "Invisible" 0 1 "R0 G93 B172 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.58 0 "Black" "Invisible" 0 1 "R0 G111 B185 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.585 0 "Black" "Invisible" 0 1 "R0 G130 B199 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.59 0 "Black" "Invisible" 0 1 "R0 G148 B213 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.595 0 "Black" "Invisible" 0 1 "R0 G167 B227 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.6 0 "Black" "Invisible" 0 1 "R0 G186 B241 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.605 0 "Black" "Invisible" 0 1 "Sky Blue" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.61 0 "Black" "Invisible" 0 1 "R22 G208 B255 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.615 0 "Black" "Invisible" 0 1 "R43 G213 B255 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.62 0 "Black" "Invisible" 0 1 "R65 G217 B255 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.625 0 "Black" "Invisible" 0 1 "R86 G221 B255 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.63 0 "Black" "Invisible" 0 1 "R108 G226 B255 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.635 0 "Black" "Invisible" 0 1 "R129 G230 B255 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.64 0 "Black" "Invisible" 0 1 "R151 G234 B255 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.645 0 "Black" "Invisible" 0 1 "R172 G238 B255 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.65 0 "Black" "Invisible" 0 1 "R194 G243 B255 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.655 0 "Black" "Invisible" 0 1 "R215 G247 B255 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.66 0 "Black" "Invisible" 0 1 "R237 G251 B255 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.665 0 "Black" "Invisible" 0 1 "R253 G253 B252 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.67 0 "Black" "Invisible" 0 1 "R237 G237 B231 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.675 0 "Black" "Invisible" 0 1 "R221 G221 B209 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.68 0 "Black" "Invisible" 0 1 "R205 G205 B188 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.685 0 "Black" "Invisible" 0 1 "R189 G189 B167 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.69 0 "Black" "Invisible" 0 1 "R173 G173 B146 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.695 0 "Black" "Invisible" 0 1 "R157 G157 B125 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.7 0 "Black" "Invisible" 0 1 "R141 G141 B103 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.705 0 "Black" "Invisible" 0 1 "R125 G125 B82 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.71 0 "Black" "Invisible" 0 1 "R110 G110 B61 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.715 0 "Black" "Invisible" 0 1 "R99 G99 B48 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.72 0 "Black" "Invisible" 0 1 "R92 G92 B41 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.725 0 "Black" "Invisible" 0 1 "R86 G86 B35 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.73 0 "Black" "Invisible" 0 1 "R80 G80 B29 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.735 0 "Black" "Invisible" 0 1 "R73 G73 B22 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.74 0 "Black" "Invisible" 0 1 "R67 G67 B16 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.745 0 "Black" "Invisible" 0 1 "R61 G61 B10 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.75 0 "Black" "Invisible" 0 1 "R54 G54 B3 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.755 0 "Black" "Invisible" 0 1 "R56 G49 B0 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.76 0 "Black" "Invisible" 0 1 "R67 G43 B0 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.765 0 "Black" "Invisible" 0 1 "R77 G38 B0 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.77 0 "Black" "Invisible" 0 1 "R88 G32 B0 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.775 0 "Black" "Invisible" 0 1 "R99 G27 B0 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.78 0 "Black" "Invisible" 0 1 "R110 G22 B0 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.785 0 "Black" "Invisible" 0 1 "R121 G16 B0 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.79 0 "Black" "Invisible" 0 1 "R131 G11 B0 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.795 0 "Black" "Invisible" 0 1 "R142 G5 B0 A255" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0
+1.8 0 "Black" "Invisible" 0 1 "Ruby Red" "R232 G232 B232 A0" "Solid" 0 0 1 1 0 0

@@ -1,0 +1,5 @@
+System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в visual.Palette.getColor(Double f)
+   в visual.InputDataFile.calculate(Palette palette, Display display)
+   в visual.Contour.Paint(Graphics g, Display display, PhisArea a)
+   в visual.Form1.Main()Exception during reading config.txt

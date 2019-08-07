@@ -1,0 +1,32 @@
+------ Project Conversion started on 10.02.2011 at 16:14 - Project: rays ------
+
+Creating configuration context: rays - Win32 Release...
+
+Warn:nofileopt option not supported - option ignored
+
+Creating configuration context: rays - Win32 Debug...
+
+Warn:argument_checking option not supported - option ignored
+
+Warn:nofileopt option not supported - option ignored
+
+rays project conversion succeeded
+
+Project Conversion log was saved at "file://d:\SCIENCE\LOTOS\_NEW_DEVELOP\PROGRAMS\2_INVERS_3D\b_synth_times\rays_log.txt"
+
+
+------ Project Conversion started on 05.04.2011 at 13:08 - Project: rays ------
+
+Creating configuration context: rays - Win32 Release...
+
+Warn:nofileopt option not supported - option ignored
+
+Creating configuration context: rays - Win32 Debug...
+
+Warn:argument_checking option not supported - option ignored
+
+Warn:nofileopt option not supported - option ignored
+
+rays project conversion succeeded
+
+Project Conversion log was saved at "file://D:\SCIENCE\LOTOS\LOTOS_11\LOTOS_11_release\PROGRAMS\4_CREATE_SYN_DATA\b_synth_times\rays_log.txt"

@@ -1,0 +1,2 @@
+System.NullReferenceException: В экземпляре объекта не задана ссылка на объект.
+   в visual.Form1.Main()Exception during reading config.txt

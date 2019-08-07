@@ -1,0 +1,52 @@
+         600         500
+ _______ Size of the picture in pixels (nx,ny)
+   30.40000       33.40000    
+ _______ Physical coordinates along X (xmin,xmax)
+   28.40000       30.80000    
+ _______ Physical coordinates along Y (ymin,ymax)
+  0.1000000      0.1000000    
+ _______ Spacing of ticks on axes (dx,dy)
+..\..\..\PICS\EGYPT_01\MODEL_01\IT1\hor_vpvs 4.png
+ _______ Path of the output picture
+ Vp/Vs ratio, depth= 40 km
+ _______ Title of the plot on the upper axe
+           1
+ _______ Number of layers
+********************************************
+           1
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\hor\vpvs1 4.grd
+ _______ Location of the GRD file
+blue_brown.scl      
+ _______ Scale for visualization
+   1.600000       1.800000    
+ _______ scale diapason
+********************************************
+           2
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\DATA\EGYPT_01\map\polit_bound.bln
+ _______ Location of the BLN file
+           3
+ _______ Thickness of line in pixels
+         100           0           0
+ _______ RGB color
+********************************************
+           2
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\DATA\EGYPT_01\map\coastal_line.bln
+ _______ Location of the BLN file
+           3
+ _______ Thickness of line in pixels
+           0           0           0
+ _______ RGB color
+********************************************
+           3
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\hor\ztr 4.dat
+ _______ Location of the DAT file
+           1
+ _______ Symbol (1: circle, 2: square)
+           5
+ _______ Size of dots in pixels
+         250           0           0
+ _______ RGB color

@@ -1,0 +1,50 @@
+!+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+         obsos=0
+         nobsos=0
+         do j1=1,nsosmax
+            i3=sosedi(j1,i1)
+            if (i3.eq.0) exit
+            if (i3.eq.i2) cycle
+!if(ivert1.eq.11.and.ivert2.eq.17)write(*,*)' i1=',i1,' i3=',i3
+!if(ivert1.eq.11.and.ivert2.eq.17)write(*,'(15i4)')i3,(sosedi(i,i3),i=1,nsosmax)
+            do l=1,nsosmax
+               i=sosedi(l,i3)
+			   if (i.eq.0) exit
+               if(i.ne.i2) cycle
+               nobsos=nobsos+1
+               obsos(nobsos)=i3
+!if(ivert1.eq.11.and.ivert2.eq.17)write(*,*)' nobs=',nobsos,' i2=',i2,' i3=',i3
+            end do
+         end do
+!if(ivert1.eq.11.and.ivert2.eq.17)write(*,*)' nobsos=',nobsos,' obsos=',(obsos(i),i=1,nobsos)
+         if (nobsos.ge.2) then
+            do m1=1,nobsos
+               i3=obsos(m1)
+               do m2=1,nobsos
+                  if (m2.eq.m1) cycle
+                  i4=obsos(m2)
+                  do l=1,nsosmax
+                     i33=sosedi(l,i4)
+                     if (i33.eq.0) cycle
+                     if (i33.ne.i3) cycle
+                     mark=0
+                     if(ntet.ne.0) then
+                        do nttt=ntet,1,-1
+                           if(tet(1,nttt).ne.i1) exit
+                           if(tet(2,nttt).ne.i2) exit
+                           if(tet(3,nttt).eq.i4.and.tet(4,nttt).eq.i3) mark=1
+                        end do
+                     end if
+                     if(mark.eq.0) then
+                        NTET=NTET+1
+                        TET(1,NTET)=i1
+                        TET(2,NTET)=i2
+                        TET(3,NTET)=i3
+                        TET(4,NTET)=i4
+                     end if
+                     exit
+                  end do
+               end do
+            end do
+         endif
+!=================================================

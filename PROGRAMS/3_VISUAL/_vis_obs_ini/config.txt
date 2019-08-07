@@ -1,0 +1,45 @@
+         400         600
+ _______ Size of the picture in pixels (nx,ny)
+  -72.20000      -69.50000    
+ _______ Physical coordinates along X (xmin,xmax)
+  -22.50000      -18.50000    
+ _______ Physical coordinates along Y (ymin,ymax)
+  0.5000000      0.5000000    
+ _______ Spacing of ticks on axes (dx,dy)
+..\..\..\PICS\DATASET1\SMILE_01\obs_system_ini_hor.png
+ _______ Path of the output picture
+  Stations (blue) and initial sources (red)
+ _______ Title of the plot on the upper axe
+           1
+ _______ Number of layers
+********************************************
+           2
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\DATA\DATASET1\map\coastal_line.bln
+ _______ Location of the BLN file
+           3
+ _______ Thickness of line in pixels
+           0           0           0
+ _______ RGB color
+********************************************
+           3
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\DATA\DATASET1\inidata\events_ini.dat
+ _______ Location of the DAT file
+           1
+ _______ Symbol (1: circle, 2: square)
+           5
+ _______ Size of dots in pixels
+         255           0           0
+ _______ RGB color
+********************************************
+           3
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\DATA\DATASET1\inidata\stat_ft.dat
+ _______ Location of the DAT file
+           2
+ _______ Symbol (1: circle, 2: square)
+           8
+ _______ Size of dots in pixels
+           0           0         255
+ _______ RGB color

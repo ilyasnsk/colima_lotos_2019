@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: rays - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\KOULAK~1\AppData\Local\Temp\RSPEFBC.tmp" with contents
+[
+/check:bounds /compile_only /dbglibs /debug:none /nologo /optimize:3 /traceback /warn:argument_checking /warn:nofileopt /module:"Debug/" /object:"Debug/" 
+"D:\SCIENCE\LET_tomo\LOTOS_11\subr\synth\read_PS_separ.f90"
+"D:\SCIENCE\LET_tomo\LOTOS_11\subr\synth\vert_PS_separ.f90"
+"D:\SCIENCE\LET_tomo\LOTOS_11\PROGRAMS\b_synth_times\rays.f90"
+"D:\SCIENCE\LET_tomo\LOTOS_11\subr\rays_locate\vrefmod.f90"
+"D:\SCIENCE\LET_tomo\LOTOS_11\subr\synth\velocity.f90"
+]
+Creating temporary file "C:\Users\KOULAK~1\AppData\Local\Temp\RSPEFBD.tmp" with contents
+[
+kernel32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/rays.pdb" /debug /machine:I386 /out:"rays.exe" /pdbtype:sept 
+.\Debug\dv_board.obj
+.\Debug\hor_anom.obj
+.\Debug\int_best.obj
+.\Debug\our_noise.obj
+.\Debug\prep_board_dv.obj
+.\Debug\prepare_noise.obj
+.\Debug\read_hor_an.obj
+.\Debug\read_vert_an.obj
+.\Debug\read_vert_brd.obj
+.\Debug\velocity.obj
+.\Debug\vert_anom.obj
+.\Debug\vert_brd.obj
+.\Debug\vrefmod.obj
+.\Debug\part_bending_hor.obj
+.\Debug\part_bending_z.obj
+.\Debug\part_ray.obj
+.\Debug\remeshing.obj
+.\Debug\streight_line.obj
+.\Debug\trace_bending.obj
+.\Debug\decsf.obj
+.\Debug\sfdec.obj
+.\Debug\rays.obj
+.\Debug\vert_PS_separ.obj
+.\Debug\read_PS_separ.obj
+]
+Creating command line "link.exe @C:\Users\KOULAK~1\AppData\Local\Temp\RSPEFBD.tmp"
+<h3>Output Window</h3>
+Compiling Fortran...
+D:\SCIENCE\LET_tomo\LOTOS_11\subr\synth\read_PS_separ.f90
+D:\SCIENCE\LET_tomo\LOTOS_11\subr\synth\vert_PS_separ.f90
+D:\SCIENCE\LET_tomo\LOTOS_11\PROGRAMS\b_synth_times\rays.f90
+D:\SCIENCE\LET_tomo\LOTOS_11\subr\rays_locate\vrefmod.f90
+D:\SCIENCE\LET_tomo\LOTOS_11\subr\synth\velocity.f90
+Linking...
+
+
+
+<h3>Results</h3>
+rays.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,8 @@
+         do isos1=1,nsosmax
+            if(sosedi(isos1,i1).eq.0) exit
+         end do
+         sosedi(isos1,i1)=i2
+         do isos2=1,30
+            if(sosedi(isos2,i2).eq.0) exit
+         end do
+         sosedi(isos2,i2)=i1

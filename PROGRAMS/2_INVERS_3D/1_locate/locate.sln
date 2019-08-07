@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "locate", "locate.vfproj", "{C5E77F32-BCA0-43CB-9FE4-23F4FDBD9334}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5E77F32-BCA0-43CB-9FE4-23F4FDBD9334}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C5E77F32-BCA0-43CB-9FE4-23F4FDBD9334}.Debug|Win32.Build.0 = Debug|Win32
+		{C5E77F32-BCA0-43CB-9FE4-23F4FDBD9334}.Release|Win32.ActiveCfg = Release|Win32
+		{C5E77F32-BCA0-43CB-9FE4-23F4FDBD9334}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

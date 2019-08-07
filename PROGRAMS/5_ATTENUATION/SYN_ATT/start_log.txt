@@ -1,0 +1,15 @@
+------ Project Conversion started on 08.02.2011 at 16:07 - Project: start ------
+
+Creating configuration context: start - Win32 Debug...
+
+Warn:argument_checking option not supported - option ignored
+
+Warn:nofileopt option not supported - option ignored
+
+Creating configuration context: start - Win32 Release...
+
+Warn:nofileopt option not supported - option ignored
+
+start project conversion succeeded
+
+Project Conversion log was saved at "file://D:\SCIENCE\LOTOS\LOTOS_11_INTEL\PROGRAMS\START\start_log.txt"

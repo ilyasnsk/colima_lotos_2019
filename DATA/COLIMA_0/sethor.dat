@@ -1,0 +1,8 @@
+3
+5 15 25 		Depths of sections
+-0.6 0.6 0.01 -0.6 0.6 0.01 fi1, fi2, dfi, tet1, tet2, dtet
+10		distance from nearest node
+0		Smoothing factor1		Number of summary
+0		index for source visualization
+
+

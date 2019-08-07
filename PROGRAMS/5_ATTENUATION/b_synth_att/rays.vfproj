@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application - Converted from CVF" Version="11.0" ProjectIdGuid="{724B2DD2-7E9F-429C-865E-6E029FCC2CE3}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Release|Win32" OutputDirectory="Release" IntermediateDirectory="Release" DeleteExtensionsOnClean="*.obj;*.mod;*.pdb;*.asm;*.map;*.dyn;*.dpi;*.tmp;*.log;*.ilk;*.exe;$(TargetPath)">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" LocalVariableStorage="localStorageSave" CallingConvention="callConventionCVF" ModulePath="$(INTDIR)/" ObjectFile="$(INTDIR)/" AssemblerListingLocation="$(INTDIR)/"/>
+				<Tool Name="VFLinkerTool" AdditionalOptions="/MACHINE:I386" OutputFile="rays.exe" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" ProgramDatabaseFile="$(OUTDIR)/rays.pdb" SubSystem="subSystemConsole" ImportLibrary="" AdditionalDependencies="kernel32.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG" Culture="rcEnglishUS" ResourceOutputFileName="$(INTDIR)/$(InputName).res"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" HeaderFileName="" DLLDataFileName="" TypeLibraryName="$(OUTDIR)/rays.tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Debug|Win32" OutputDirectory="$(ProjectDir)" IntermediateDirectory="Debug" DeleteExtensionsOnClean="*.obj;*.mod;*.pdb;*.asm;*.map;*.dyn;*.dpi;*.tmp;*.log;*.ilk;*.exe;$(TargetPath)">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" LocalVariableStorage="localStorageSave" CallingConvention="callConventionCVF" ModulePath="$(INTDIR)/" ObjectFile="$(INTDIR)/" AssemblerListingLocation="$(INTDIR)/" Traceback="true" BoundsCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
+				<Tool Name="VFLinkerTool" AdditionalOptions="/MACHINE:I386" OutputFile="rays.exe" LinkIncremental="linkIncrementalYes" SuppressStartupBanner="true" GenerateDebugInformation="true" ProgramDatabaseFile="$(OUTDIR)/rays.pdb" SubSystem="subSystemConsole" ImportLibrary="" AdditionalDependencies="kernel32.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="_DEBUG" Culture="rcEnglishUS" ResourceOutputFileName="$(INTDIR)/$(InputName).res"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" HeaderFileName="" DLLDataFileName="" TypeLibraryName="$(OUTDIR)/rays.tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="other">
+		<File RelativePath="..\..\subr\convers\decsf.f90"/>
+		<File RelativePath="..\..\subr\convers\sfdec.f90"/></Filter>
+		<Filter Name="vel_mod">
+		<File RelativePath="..\..\subr\synth\anomaly.f90"/>
+		<File RelativePath="..\..\subr\synth\dv_board.f90"/>
+		<File RelativePath="..\..\subr\synth\hor_anom.f90"/>
+		<File RelativePath="..\..\subr\other\int_best.f90"/>
+		<File RelativePath="..\..\subr\synth\our_noise.f90"/>
+		<File RelativePath="..\..\subr\synth\prep_board_dv.f90"/>
+		<File RelativePath="..\..\subr\synth\prepare_noise.f90"/>
+		<File RelativePath="..\..\subr\synth\read_anom.f90"/>
+		<File RelativePath="..\..\subr\synth\read_hor_an.f90"/>
+		<File RelativePath="..\..\subr\synth\read_PS_separ.f90"/>
+		<File RelativePath="..\..\subr\synth\read_vert_an.f90"/>
+		<File RelativePath="..\..\subr\synth\read_vert_brd.f90"/>
+		<File RelativePath="..\..\subr\synth\read_vref.f90"/>
+		<File RelativePath="..\..\subr\synth\velocity.f90"/>
+		<File RelativePath="..\..\subr\synth\vert_anom.f90"/>
+		<File RelativePath="..\..\subr\synth\vert_brd.f90"/>
+		<File RelativePath="..\..\subr\synth\vert_PS_separ.f90"/>
+		<File RelativePath="..\..\subr\rays_locate\vrefmod.f90"/></Filter>
+		<File RelativePath=".\rays.f90"/></Files>
+	<Globals/></VisualStudioProject>

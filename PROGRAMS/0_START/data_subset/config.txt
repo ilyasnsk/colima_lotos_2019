@@ -1,0 +1,54 @@
+         935         700
+ _______ Size of the picture in pixels (nx,ny)
+   25.21217       43.23650    
+ _______ Physical coordinates along X (xmin,xmax)
+   22.12233       33.95000    
+ _______ Physical coordinates along Y (ymin,ymax)
+  0.2500000      0.2500000    
+ _______ Spacing of ticks on axes (dx,dy)
+..\..\..\PICS\EGYPT_01\ini_data.png
+ _______ picture file
+ Sources and stations in the initial catalogue
+ _______ Title of the plot on the upper axe
+           1
+ _______ Number of layers
+********************************************
+           3
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\DATA\EGYPT_01\inidata\sources_ini.dat
+ _______ Location of the DAT file
+           1
+ _______ Symbol (1: circle, 2: square)
+           4
+ _______ Size of dots in pixels
+         255           0           0
+ _______ RGB color
+********************************************
+           3
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\DATA\EGYPT_01\inidata\stat_actual.dat
+ _______ Location of the DAT file
+           2
+ _______ Symbol (1: circle, 2: square)
+           5
+ _______ Size of dots in pixels
+           0           0         255
+ _______ RGB color
+********************************************
+           2
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\DATA\EGYPT_01\map\polit_bound.bln
+ _______ Location of the BLN file
+           3
+ _______ Thickness of line in pixels
+         100           0           0
+ _______ RGB color
+********************************************
+           2
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\DATA\EGYPT_01\map\coastal_line.bln
+ _______ Location of the BLN file
+           3
+ _______ Thickness of line in pixels
+           0           0           0
+ _______ RGB color

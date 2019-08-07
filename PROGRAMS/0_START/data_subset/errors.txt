@@ -1,0 +1,12 @@
+System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at visual.Curves..ctor(String path)
+   at visual.Line.Paint(Graphics g, Display d, PhisArea a)
+   at visual.Form1.Main()Exception during reading config.txtring path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Boolean detectEncodingFromByteOrderMarks)
+   at System.IO.File.OpenText(String path)
+   at visual.Zonds..ctor(String path)Exception during reading sources

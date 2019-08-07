@@ -1,0 +1,15 @@
+------ Project Conversion started on 09.02.2011 at 14:30 - Project: create ------
+
+Creating configuration context: create - Win32 Debug...
+
+Warn:argument_checking option not supported - option ignored
+
+Warn:nofileopt option not supported - option ignored
+
+Creating configuration context: create - Win32 Release...
+
+Warn:nofileopt option not supported - option ignored
+
+create project conversion succeeded
+
+Project Conversion log was saved at "file://d:\SCIENCE\LOTOS\_NEW_DEVELOP\PROGRAMS\3_VISUAL\a_set_syn_hor\create_log.txt"

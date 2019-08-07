@@ -1,0 +1,34 @@
+         800         848
+ _______ Size of the picture in pixels (nx,ny)
+  -104.2000      -103.0000    
+ _______ Physical coordinates along X (xmin,xmax)
+   18.90000       20.10000    
+ _______ Physical coordinates along Y (ymin,ymax)
+  0.5000000      0.5000000    
+ _______ Spacing of ticks on axes (dx,dy)
+..\..\..\PICS\COLIMA_0\BOARD_10\IT3\hor_vpvs 3.png
+ _______ Path of the output picture
+ Vp/Vs ratio, depth= 25 km
+ _______ Title of the plot on the upper axe
+           1
+ _______ Number of layers
+********************************************
+           1
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\hor\vpvs3 3.grd
+ _______ Location of the GRD file
+blue_brown.scl      
+ _______ Scale for visualization
+   1.650000       1.850000    
+ _______ scale diapason
+********************************************
+           3
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\hor\ztr 3.dat
+ _______ Location of the DAT file
+           1
+ _______ Symbol (1: circle, 2: square)
+           5
+ _______ Size of dots in pixels
+         250           0           0
+ _______ RGB color

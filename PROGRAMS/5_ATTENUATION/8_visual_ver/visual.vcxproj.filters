@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="subr">
+      <UniqueIdentifier>{773281f8-49e9-453c-b196-8db270c4d530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="visual">
+      <UniqueIdentifier>{37adbd94-48d0-4e29-ae19-7077f49676d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="apriori_model">
+      <UniqueIdentifier>{a33acb18-c5cc-428f-bd80-85c55a4f15e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\subr\convers\decsf.f90">
+      <Filter>subr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\invers\kram3.f90">
+      <Filter>subr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\convers\sfdec.f90">
+      <Filter>subr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\rays_locate\vrefmod.f90">
+      <Filter>subr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\visual\dv_1_grid_v.f90">
+      <Filter>visual</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\visual\prepare_model_v.f90">
+      <Filter>visual</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\rays_locate\h_lim.f90">
+      <Filter>apriori_model</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\synth\read_ini_model.f90">
+      <Filter>apriori_model</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\rays_locate\read_topo.f90">
+      <Filter>apriori_model</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\synth\vert_anom.f90">
+      <Filter>apriori_model</Filter>
+    </CustomBuild>
+    <CustomBuild Include="visual.f90" />
+  </ItemGroup>
+</Project>

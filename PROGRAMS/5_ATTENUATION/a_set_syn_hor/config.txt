@@ -1,0 +1,23 @@
+         800         848
+ _______ Size of the picture in pixels (nx,ny)
+  -104.2000      -103.0000    
+ _______ Physical coordinates along X (xmin,xmax)
+   18.90000       20.10000    
+ _______ Physical coordinates along Y (ymin,ymax)
+  0.5000000      0.5000000    
+ _______ Spacing of ticks on axes (dx,dy)
+..\..\..\PICS\COLIMA_0\SYNHOR_1\SYN\att_hor2 3.png
+ _______ Path of the output picture
+ S attenuation, depth=   25
+ _______ Title of the plot on the upper axe
+           1
+ _______ Number of layers
+********************************************
+           1
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\att\syn_hor2 3.grd
+ _______ Location of the GRD file
+blue_red.scl        
+ _______ Scale for visualization
+  -10.00000       10.00000    
+ _______ scale diapason

@@ -1,0 +1,10 @@
+  Total number of stations in the list:          73
+  File rays.dat contains lines:        25915
+  Number of events:         770
+  Number of picks:       25145
+  including P-data:       13301  and S-data:       11844
+  Number of stations involved:          72
+  center of the station network: fi=  -103.5951      tet=   19.47043    
+  fmin=  -107.3720      fmax=  -89.69200    
+  tmin=   15.97200      tmax=   23.70400    
+  average source point: fi=  -103.5276      tet=   19.25549    

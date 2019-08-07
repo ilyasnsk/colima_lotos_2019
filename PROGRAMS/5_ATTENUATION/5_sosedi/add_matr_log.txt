@@ -1,0 +1,15 @@
+------ Project Conversion started on 04.03.2011 at 15:14 - Project: add_matr ------
+
+Creating configuration context: add_matr - Win32 Debug...
+
+Warn:argument_checking option not supported - option ignored
+
+Warn:nofileopt option not supported - option ignored
+
+Creating configuration context: add_matr - Win32 Release...
+
+Warn:nofileopt option not supported - option ignored
+
+add_matr project conversion succeeded
+
+Project Conversion log was saved at "file://D:\science\TOMO\INTEL\_NEW_DEVELOP\PROGRAMS\2_INVERS_3D\5n_sosedi\add_matr_log.txt"

@@ -1,0 +1,13 @@
+System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в visual.InputDataFile.calculate(Palette palette, Display display)
+   в visual.Contour.Paint(Graphics g, Display display, PhisArea a)
+   в visual.Form1.Main()Exception during reading config.txtberFormatInfo numfmt)
+   в System.Double.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   в visual.Parser.Parse(String s)
+   в visual.InputDataFile.openFile(String path)
+   в visual.Contour.Paint(Graphics g, Display display, PhisArea a)Exception during reading .grd Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Boolean detectEncodingFromByteOrderMarks)
+   at System.IO.File.OpenText(String path)
+   at visual.Zonds..ctor(String path)Exception during reading sourcesception during reading .grd

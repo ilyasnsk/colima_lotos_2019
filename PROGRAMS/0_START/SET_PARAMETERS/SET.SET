@@ -1,0 +1,6 @@
+100	Number of steps for computing ray density
+5 % of total ray coverage in margins
+50 number of steps for map visualization
+30 number of steps for parameterization in one direction
+30  % of data with small pick/event to be rejected
+6 minimum valie of pick/event

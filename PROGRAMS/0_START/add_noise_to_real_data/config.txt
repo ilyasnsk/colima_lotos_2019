@@ -1,0 +1,36 @@
+         400         700
+ _______ Size of the picture in pixels (nx,ny)
+   34.79700       40.51800    
+ _______ Physical coordinates along X (xmin,xmax)
+   20.27600       29.30000    
+ _______ Physical coordinates along Y (ymin,ymax)
+  0.2500000      0.2500000    
+ _______ Spacing of ticks on axes (dx,dy)
+..\..\..\PICS\LUNAY_03\ini_data.png
+ _______ picture file
+ Sources and stations in the initial catalogue
+ _______ Title of the plot on the upper axe
+           1
+ _______ Number of layers
+********************************************
+           3
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\DATA\LUNAY_03\inidata\sources_ini.dat
+ _______ Location of the DAT file
+           1
+ _______ Symbol (1: circle, 2: square)
+           4
+ _______ Size of dots in pixels
+         255           0           0
+ _______ RGB color
+********************************************
+           3
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\DATA\LUNAY_03\inidata\stat_actual.dat
+ _______ Location of the DAT file
+           2
+ _______ Symbol (1: circle, 2: square)
+           5
+ _______ Size of dots in pixels
+           0           0         255
+ _______ RGB color

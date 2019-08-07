@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="vel_mod">
+      <UniqueIdentifier>{8f71f8a8-a1a3-45f8-a290-ee84c8729325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bending">
+      <UniqueIdentifier>{5e842011-f692-4161-8014-7dfa08e5b5c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{21272b6b-705f-4017-a623-b727de1d0dde}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\subr\synth\dv_board.f90">
+      <Filter>vel_mod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\synth\hor_anom.f90">
+      <Filter>vel_mod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\other\int_best.f90">
+      <Filter>vel_mod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\synth\our_noise.f90">
+      <Filter>vel_mod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\synth\prep_board_dv.f90">
+      <Filter>vel_mod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\synth\prepare_noise.f90">
+      <Filter>vel_mod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\synth\read_hor_an.f90">
+      <Filter>vel_mod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\synth\read_PS_separ.f90">
+      <Filter>vel_mod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\synth\read_vert_an.f90">
+      <Filter>vel_mod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\synth\read_vert_brd.f90">
+      <Filter>vel_mod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\synth\velocity.f90">
+      <Filter>vel_mod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\synth\vert_anom.f90">
+      <Filter>vel_mod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\synth\vert_brd.f90">
+      <Filter>vel_mod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\synth\vert_PS_separ.f90">
+      <Filter>vel_mod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\rays_locate\vrefmod.f90">
+      <Filter>vel_mod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\bending\part_bending_hor.f90">
+      <Filter>bending</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\bending\part_bending_z.f90">
+      <Filter>bending</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\bending\part_ray.f90">
+      <Filter>bending</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\bending\remeshing.f90">
+      <Filter>bending</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\bending\streight_line.f90">
+      <Filter>bending</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\bending\trace_bending.f90">
+      <Filter>bending</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\convers\decsf.f90">
+      <Filter>other</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\convers\sfdec.f90">
+      <Filter>other</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rays.f90" />
+  </ItemGroup>
+</Project>

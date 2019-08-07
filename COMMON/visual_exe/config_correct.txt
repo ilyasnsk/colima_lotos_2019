@@ -1,0 +1,43 @@
+400 600 
+_______ Size of the picture in pixels (nx,ny)
+-72.50000      -69.50000   
+_______ Physical coordinates along X (xmin,xmax)
+-22.50000      -18.50000
+_______ Physical coordinates along Y (ymin,ymax)
+1 1
+_______ Spacing of ticks on axes (dx,dy)
+picture.png
+_______ Path of the output picture
+ P anomalies, depth=  30 km
+_______ Title of the plot on the upper axe
+4
+_______ Number of layers
+********************************************
+1 
+_______ Key of the layer (1: contour, 2: line, 3:dots)
+grid.grd
+_______ Location of the GRD file:
+scale.scl
+_______ Scale for visualization
+-10 10
+_______ scale diapason:
+********************************************
+2 
+_______ Key of the layer (1: contour, 2: line, 3:dots)
+coastal_line.bln
+_______ Location of the BLN file
+2
+_______ Thickness of line in pixels
+0 130 255
+_______ RGB color:
+********************************************
+3 
+_______ Key of the layer (1: contour, 2: line, 3:dots)
+dots.dat
+_______ Location of the DAT file
+2
+_______ Symbol (1: circle, 2: square)
+5
+_______ Size of dots in pixels
+0 0 0
+_______ RGB color:

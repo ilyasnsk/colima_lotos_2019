@@ -1,0 +1,11 @@
+********************************************
+           3
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\vert\stat_ 2.dat
+ _______ Location of the DAT file
+           2
+ _______ Symbol (1: circle, 2: square)
+           7
+ _______ Size of dots in pixels
+           0           0         250
+ _______ RGB color

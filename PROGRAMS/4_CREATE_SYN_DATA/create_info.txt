@@ -1,0 +1,2 @@
+XYZ_DAT1	name of the area folder (8 characters)
+true_mod	name of the folder with the "true" synthetic velocity

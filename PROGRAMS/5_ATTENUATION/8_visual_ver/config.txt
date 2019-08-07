@@ -1,0 +1,32 @@
+        1480         600
+ _______ Size of the picture in pixels (nx,ny)
+           0   111.0520    
+ _______ Physical coordinates along X (xmin,xmax)
+  -40.00000       5.000000    
+ _______ Physical coordinates along Y (ymin,ymax)
+   10.00000       10.00000    
+ _______ Spacing of ticks on axes (dx,dy)
+..\..\..\PICS\COLIMA_0\BOARD_20\ATT\ver_att2 3.png
+ _______ Path of the output picture
+ S attenuation, section=3A - 3B
+ _______ Title of the plot on the upper axe
+           1
+ _______ Number of layers
+********************************************
+           1
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\att\att_ver2 3.grd
+ _______ Location of the GRD file
+blue_red.scl        
+ _______ Scale for visualization
+  -30.00000       30.00000    
+ _______ scale diapason
+********************************************
+           2
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\vert\topo_ 3.bln
+ _______ Location of the BLN file
+           3
+ _______ Thickness of line in pixels
+           0           0           0
+ _______ RGB color

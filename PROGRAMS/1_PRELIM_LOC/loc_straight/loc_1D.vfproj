@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application - Converted from CVF" Version="11.0" ProjectIdGuid="{71400A86-9979-4F90-83B1-7B4960DAB088}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Release|Win32" OutputDirectory="Release" IntermediateDirectory="Release" DeleteExtensionsOnClean="*.obj;*.mod;*.pdb;*.asm;*.map;*.dyn;*.dpi;*.tmp;*.log;*.ilk;*.exe;$(TargetPath)">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" Optimization="optimizeFull" LocalVariableStorage="localStorageSave" CallingConvention="callConventionCVF" ModulePath="$(INTDIR)/" ObjectFile="$(INTDIR)/" AssemblerListingLocation="$(INTDIR)/"/>
+				<Tool Name="VFLinkerTool" AdditionalOptions="/MACHINE:I386" OutputFile="loc_1D.exe" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" ProgramDatabaseFile="$(OUTDIR)/loc_1D.pdb" SubSystem="subSystemConsole" ImportLibrary="" AdditionalDependencies="kernel32.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG" Culture="rcRussian" ResourceOutputFileName="$(INTDIR)/$(InputName).res"/>
+				<Tool Name="VFMidlTool" WarningLevel="midlWarningLevel_4" SuppressStartupBanner="true" HeaderFileName="" DLLDataFileName="" TypeLibraryName="$(OUTDIR)/loc_1D.tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Debug|Win32" OutputDirectory="Debug" IntermediateDirectory="Debug" DeleteExtensionsOnClean="*.obj;*.mod;*.pdb;*.asm;*.map;*.dyn;*.dpi;*.tmp;*.log;*.ilk;*.exe;$(TargetPath)">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" LocalVariableStorage="localStorageSave" CallingConvention="callConventionCVF" ModulePath="$(INTDIR)/" ObjectFile="$(INTDIR)/" AssemblerListingLocation="$(INTDIR)/" Traceback="true" BoundsCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
+				<Tool Name="VFLinkerTool" AdditionalOptions="/MACHINE:I386" OutputFile="loc_1D.exe" LinkIncremental="linkIncrementalYes" SuppressStartupBanner="true" GenerateDebugInformation="true" ProgramDatabaseFile="$(OUTDIR)/loc_1D.pdb" SubSystem="subSystemConsole" ImportLibrary="" AdditionalDependencies="kernel32.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="_DEBUG" Culture="rcRussian" ResourceOutputFileName="$(INTDIR)/$(InputName).res"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" HeaderFileName="" DLLDataFileName="" TypeLibraryName="$(OUTDIR)/loc_1D.tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="locate_1d">
+		<File RelativePath="..\..\subr\velocity\dv_mod_2d.f90"/>
+		<File RelativePath="..\..\subr\locate\goal_fun_lin.f90">
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" WarningsAsErrors="true"/></FileConfiguration></File>
+		<File RelativePath="..\..\subr\rays_locate\read_vref.f90"/>
+		<File RelativePath="..\..\subr\bending\straight_line.f90"/>
+		<File RelativePath="..\..\subr\velocity\velocity.f90"/>
+		<File RelativePath="..\..\subr\rays_locate\vrefmod.f90"/></Filter>
+		<Filter Name="other">
+		<File RelativePath="..\..\subr\convers\decsf.f90"/>
+		<File RelativePath="..\..\subr\convers\flat_sph.f90"/>
+		<File RelativePath="..\..\subr\rays_locate\h_lim.f90"/>
+		<File RelativePath="..\..\subr\other\int_best.f90"/>
+		<File RelativePath="..\..\subr\rays_locate\read_topo.f90"/>
+		<File RelativePath="..\..\subr\rays_locate\read_z_limit.f90"/>
+		<File RelativePath="..\..\subr\rays_locate\relief_surf.f90"/>
+		<File RelativePath="..\..\subr\convers\sfdec.f90"/>
+		<File RelativePath="..\..\subr\rays_locate\z_lim.f90"/></Filter>
+		<File RelativePath=".\loc_1D.f90"/></Files>
+	<Globals/></VisualStudioProject>

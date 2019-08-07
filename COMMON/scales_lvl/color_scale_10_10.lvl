@@ -1,0 +1,24 @@
+LVL2
+'Level Flags LColor LStyle LWidth FFGColor FBGColor FPattern FMode
+-100000 0 "Black" "Invisible" 0 "20% Black" "White" "Diagonal Cross" 2 1 1
+-40 0 "Black" "Invisible" 0 "Dark Brown" "Black" "Solid" 2 1 1
+-9 0 "Black" "Invisible" 0 "R129 G24 B24" "Black" "Solid" 2 1 1
+-8 0 "Black" "Invisible" 0 "R159 G0 B0" "Black" "Solid" 2 1 1
+-7 0 "Black" "Invisible" 0 "R208 G0 B0" "R10 G10 B10" "Solid" 2 1 1
+-6 0 "Black" "Invisible" 0 "R255 G3 B0" "R21 G21 B21" "Solid" 2 1 1
+-5 0 "Black" "Invisible" 0 "R255 G64 B0" "R31 G31 B31" "Solid" 2 1 1
+-4 0 "Black" "Invisible" 0 "R255 G117 B0" "R42 G42 B42" "Solid" 2 1 1
+-3 0 "Black" "Invisible" 0 "R255 G157 B0" "R53 G53 B53" "Solid" 2 1 1
+-2 0 "Black" "Invisible" 0 "R255 G196 B0" "R63 G63 B63" "Solid" 2 1 1
+-1 0 "Black" "Invisible" 0 "R255 G235 B158" "R74 G74 B74" "Solid" 2 1 1
+0 0 "Black" "Invisible" 0 "R222 G255 B255" "R85 G85 B85" "Solid" 2 1 1
+1 0 "Black" "Invisible" 0 "R156 G255 B255" "R95 G95 B95" "Solid" 2 1 1
+2 0 "Black" "Invisible" 0 "R60 G224 B255" "R106 G106 B106" "Solid" 2 1 1
+3 0 "Black" "Invisible" 0 "R25 G192 B255" "R116 G116 B116" "Solid" 2 1 1
+4 0 "Black" "Invisible" 0 "R89 G160 B255" "R127 G127 B127" "Solid" 2 1 1
+5 0 "Black" "Invisible" 0 "R119 G136 B238" "R138 G138 B138" "Solid" 2 1 1
+6 0 "Black" "Invisible" 0 "R141 G114 B216" "R148 G148 B148" "Solid" 2 1 1
+7 0 "Black" "Invisible" 0 "R141 G77 B204" "R159 G159 B159" "Solid" 2 1 1
+8 0 "Black" "Invisible" 0 "R112 G19 B204" "R170 G170 B170" "Solid" 2 1 1
+9 0 "Black" "Invisible" 0 "R61 G0 B163" "R180 G180 B180" "Solid" 2 1 1
+10 0 "Black" "Invisible" 0 "Deep Navy Blue" "R191 G191 B191" "Solid" 2 1 1

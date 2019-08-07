@@ -1,0 +1,20 @@
+******* MAP VIEW *********
+800 0			size in pixels for horizontal section
+0.5 0.5			ticks on axes for horizontal sections
+******* VERTICAL SECTION *********
+0 600			size in pixels for vertical section
+10 10			ticks on axes for vertical sections
+******* PLOTS WITH 1D VELOCITIES *********
+500 500			size in pixels for the 1D models
+2 9				Limits of P and S velocity distribution
+-60 5			Depth limit
+0.5 10			ticks on axes for 1D velocity plot
+******* SCALES *********
+blue_red.scl	scale for velocity anomalies
+-10 10 -30 30			diapason for velocity anomalies, attenuation %
+blue_brown.scl	scale for Vp/Vs
+1.65 1.85			diapason for Vp/Vs
+rainbow_small.scl	scale for absolute Vp
+4.0 8.5			diapason for absolute Vp
+rainbow_small.scl	scale for absolute Vp
+2.5 5	

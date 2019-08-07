@@ -1,0 +1,15 @@
+------ Project Conversion started on 04.03.2011 at 16:39 - Project: visual ------
+
+Creating configuration context: visual - Win32 Release...
+
+Warn:nofileopt option not supported - option ignored
+
+Creating configuration context: visual - Win32 Debug...
+
+Warn:argument_checking option not supported - option ignored
+
+Warn:nofileopt option not supported - option ignored
+
+visual project conversion succeeded
+
+Project Conversion log was saved at "file://D:\science\TOMO\INTEL\_NEW_DEVELOP\PROGRAMS\3_VISUAL\_vis_n_hor_result\visual_log.txt"

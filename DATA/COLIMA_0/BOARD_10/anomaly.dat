@@ -1,0 +1,10 @@
+1	1 - board, 2 - horiz. anom, 3 - vert. anom
+_______________________________________________
+-5.00 -60	P- velocity and attenuation anomalies
+-300. 300. 10. 0.0 
+-300. 300. 10. 0.0 
+-10. 250. 250. 0.0
+5.00 60		S- velocity and attenuation anomalies
+-300. 300. 10. 0.0 
+-300. 300. 10. 0.0 
+-10. 250. 250. 0.0

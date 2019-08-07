@@ -1,0 +1,304 @@
+         800         848
+ _______ Size of the picture in pixels (nx,ny)
+  -104.2000      -103.0000    
+ _______ Physical coordinates along X (xmin,xmax)
+   18.90000       20.10000    
+ _______ Physical coordinates along Y (ymin,ymax)
+  0.5000000      0.5000000    
+ _______ Spacing of ticks on axes (dx,dy)
+..\..\..\PICS\COLIMA_0\BOARD_15\SYN\hor_profiles1 1.png
+ _______ Path of the output picture
+ P anomalies, depth=   5
+ _______ Title of the plot on the upper axe
+           1
+ _______ Number of layers
+********************************************
+           1
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\hor\syn1_ 1.grd
+ _______ Location of the GRD file
+blue_red.scl        
+ _______ Scale for visualization
+  -10.00000       10.00000    
+ _______ scale diapason
+********************************************
+           2
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\vert\mark_ 1.bln
+ _______ Location of the BLN file
+           2
+ _______ Thickness of line in pixels
+           0           0           0
+ _______ RGB color
+********************************************
+           3
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\vert\mark_ 1.dat
+ _______ Location of the DAT file
+           1
+ _______ Symbol (1: circle, 2: square)
+           6
+ _______ Size of dots in pixels
+           0           0           0
+ _______ RGB color
+********************************************
+           5
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+ 1 - A
+ _______ Text to output
+  -103.5330       19.00902    
+ _______ Coordinates
+           1
+ _______ Type (1: Arial, 2: Times New Romans)
+          12
+ _______ Size
+           0           0           0
+ _______ RGB color
+********************************************
+           5
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+ 1 - B
+ _______ Text to output
+  -103.6611       19.89639    
+ _______ Coordinates
+           1
+ _______ Type (1: Arial, 2: Times New Romans)
+          12
+ _______ Size
+           0           0           0
+ _______ RGB color
+********************************************
+           5
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+  20
+ _______ Text to output
+  -103.5586       19.18725    
+ _______ Coordinates
+           1
+ _______ Type (1: Arial, 2: Times New Romans)
+          10
+ _______ Size
+           0           0           0
+ _______ RGB color
+********************************************
+           5
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+  40
+ _______ Text to output
+  -103.5843       19.36548    
+ _______ Coordinates
+           1
+ _______ Type (1: Arial, 2: Times New Romans)
+          10
+ _______ Size
+           0           0           0
+ _______ RGB color
+********************************************
+           5
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+  60
+ _______ Text to output
+  -103.6100       19.54370    
+ _______ Coordinates
+           1
+ _______ Type (1: Arial, 2: Times New Romans)
+          10
+ _______ Size
+           0           0           0
+ _______ RGB color
+********************************************
+           2
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\vert\mark_ 2.bln
+ _______ Location of the BLN file
+           2
+ _______ Thickness of line in pixels
+           0           0           0
+ _______ RGB color
+********************************************
+           3
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\vert\mark_ 2.dat
+ _______ Location of the DAT file
+           1
+ _______ Symbol (1: circle, 2: square)
+           6
+ _______ Size of dots in pixels
+           0           0           0
+ _______ RGB color
+********************************************
+           5
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+ 2 - A
+ _______ Text to output
+  -103.9953       19.78448    
+ _______ Coordinates
+           1
+ _______ Type (1: Arial, 2: Times New Romans)
+          12
+ _______ Size
+           0           0           0
+ _______ RGB color
+********************************************
+           5
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+ 2 - B
+ _______ Text to output
+  -103.1079       19.27736    
+ _______ Coordinates
+           1
+ _______ Type (1: Arial, 2: Times New Romans)
+          12
+ _______ Size
+           0           0           0
+ _______ RGB color
+********************************************
+           5
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+  20
+ _______ Text to output
+  -103.8317       19.69155    
+ _______ Coordinates
+           1
+ _______ Type (1: Arial, 2: Times New Romans)
+          10
+ _______ Size
+           0           0           0
+ _______ RGB color
+********************************************
+           5
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+  40
+ _______ Text to output
+  -103.6682       19.59846    
+ _______ Coordinates
+           1
+ _______ Type (1: Arial, 2: Times New Romans)
+          10
+ _______ Size
+           0           0           0
+ _______ RGB color
+********************************************
+           5
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+  60
+ _______ Text to output
+  -103.5050       19.50523    
+ _______ Coordinates
+           1
+ _______ Type (1: Arial, 2: Times New Romans)
+          10
+ _______ Size
+           0           0           0
+ _______ RGB color
+********************************************
+           5
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+  80
+ _______ Text to output
+  -103.3420       19.41185    
+ _______ Coordinates
+           1
+ _______ Type (1: Arial, 2: Times New Romans)
+          10
+ _______ Size
+           0           0           0
+ _______ RGB color
+********************************************
+           2
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\vert\mark_ 3.bln
+ _______ Location of the BLN file
+           2
+ _______ Thickness of line in pixels
+           0           0           0
+ _______ RGB color
+********************************************
+           3
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\vert\mark_ 3.dat
+ _______ Location of the DAT file
+           1
+ _______ Symbol (1: circle, 2: square)
+           6
+ _______ Size of dots in pixels
+           0           0           0
+ _______ RGB color
+********************************************
+           5
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+ 3 - A
+ _______ Text to output
+  -104.0002       19.24785    
+ _______ Coordinates
+           1
+ _______ Type (1: Arial, 2: Times New Romans)
+          12
+ _______ Size
+           0           0           0
+ _______ RGB color
+********************************************
+           5
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+ 3 - B
+ _______ Text to output
+  -103.1946       19.89692    
+ _______ Coordinates
+           1
+ _______ Type (1: Arial, 2: Times New Romans)
+          12
+ _______ Size
+           0           0           0
+ _______ RGB color
+********************************************
+           5
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+  20
+ _______ Text to output
+  -103.8556       19.36501    
+ _______ Coordinates
+           1
+ _______ Type (1: Arial, 2: Times New Romans)
+          10
+ _______ Size
+           0           0           0
+ _______ RGB color
+********************************************
+           5
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+  40
+ _______ Text to output
+  -103.7108       19.48205    
+ _______ Coordinates
+           1
+ _______ Type (1: Arial, 2: Times New Romans)
+          10
+ _______ Size
+           0           0           0
+ _______ RGB color
+********************************************
+           5
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+  60
+ _______ Text to output
+  -103.5658       19.59898    
+ _______ Coordinates
+           1
+ _______ Type (1: Arial, 2: Times New Romans)
+          10
+ _______ Size
+           0           0           0
+ _______ RGB color
+********************************************
+           5
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+  80
+ _______ Text to output
+  -103.4205       19.71579    
+ _______ Coordinates
+           1
+ _______ Type (1: Arial, 2: Times New Romans)
+          10
+ _______ Size
+           0           0           0
+ _______ RGB color

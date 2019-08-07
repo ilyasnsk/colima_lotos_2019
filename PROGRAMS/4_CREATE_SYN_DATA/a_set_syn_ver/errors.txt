@@ -1,0 +1,11 @@
+System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в visual.Palette.getColor(Double f)
+   в visual.InputDataFile.calculate(Palette palette, Display display)
+   в visual.Contour.Paint(Graphics g, Display display, PhisArea a)
+   в visual.Form1.Main()Exception during reading config.txtleStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Boolean detectEncodingFromByteOrderMarks)
+   at System.IO.File.OpenText(String path)
+   at visual.Palette..ctor(String path, Double begin, Double end, Boolean be_exist)Exception during reading palette

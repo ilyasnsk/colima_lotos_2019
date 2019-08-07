@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="subr">
+      <UniqueIdentifier>{a644e98e-2bcb-4b96-b5db-81d38fea83e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\subr\visual\dv_1_gr_xyz_v.f90">
+      <Filter>subr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\invers\kram3.f90">
+      <Filter>subr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\visual\prepare_model_v.f90">
+      <Filter>subr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\subr\rays_locate\vrefmod.f90">
+      <Filter>subr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mod_3D.f90" />
+  </ItemGroup>
+</Project>
